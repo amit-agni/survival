@@ -1,89 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survival</title>
-    <style>
-        body {
-            background-color: #f0f8ff; /* Light blue background */
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #2e8b57; /* Dark green */
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        nav {
-            text-align: center;
-            margin: 20px 0;
-        }
-        nav a {
-            color: #2e8b57;
-            font-size: 1.2em;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            color: #5a9a6f;
-        }
-        .content {
-            text-align: center;
-            margin: 50px 20px;
-        }
-        footer {
-            background-color: #2e8b57;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Survival</h1>
-        <p>Your Ultimate Guide to Thriving in the Wild</p>
-    </header>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#tips">Survival Tips</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="content" id="about">
-        <h2>About Survival</h2>
-        <p>Survival is great all about being prepared for any situation. Learn the basics of outdoor skills, emergency preparedness, and how to thrive in nature.</p>
-    </div>
-
-    <div class="content" id="tips">
-        <h2>Survival Tips</h2>
-        <ul>
-            <li>Always carry water and a survival kit.</li>
-            <li>Know how to make a fire.</li>
-            <li>Understand how to navigate using a compass.</li>
-            <li>Stay calm in emergency situations.</li>
-        </ul>
-    </div>
-
-    <div class="content" id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or need advice, feel free to <a href="mailto:survival@example.com">email us</a>.</p>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Survival Guide | All Rights Reserved</p>
-    </footer>
+    var welcome=30;
+    draw=function(){
+        fill(0,200,255);
+        textSize(welcome);
+        text("wlcome to survival",1,1);
+    }
 </body>
 </html>
